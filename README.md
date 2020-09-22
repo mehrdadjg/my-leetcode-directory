@@ -1,11 +1,9 @@
 # List of Questions
 
-Note: For each file `question_name.py` in the main directory, you can find the question in [leetcode.com/problems/`question_name`/](https://leetcode.com/problems/question_name/).
-
-| Number |               Question Name                |                    Solution                     | Difficulty |       Libraries Used        |
-| :----: | :----------------------------------------: | :---------------------------------------------: | :--------: | :-------------------------: |
-|  146   |                 LRU Cache                  |                 `lru-cache.py`                  |   Medium   | `DoublyConnectedLinkedList` |
-|  211   | Design Add and Search Words Data Structure | `design-add-and-search-words-data-structure.py` |   Medium   |         `SkipTrie`          |
+| Number |                                                    Question Name                                                    |                    Solution                     | Difficulty |       Libraries Used        |
+| :----: | :-----------------------------------------------------------------------------------------------------------------: | :---------------------------------------------: | :--------: | :-------------------------: |
+|  146   |                                    [LRU Cache](leetcode.com/problems/lru-cache/)                                    |                 `lru-cache.py`                  |   Medium   | `DoublyConnectedLinkedList` |
+|  211   | [Design Add and Search Words Data Structure](<(leetcode.com/problems/design-add-and-search-words-data-structure/)>) | `design-add-and-search-words-data-structure.py` |   Medium   |         `SkipTrie`          |
 
 # Library Files
 
