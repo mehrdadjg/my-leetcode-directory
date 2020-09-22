@@ -1,12 +1,11 @@
 class Node:
-    def __init__(self, key, value, prev, next):
-        self.key = key
+    def __init__(self, value, prev, next):
         self.value = value
         self.next = next
         self.prev = prev
 
     def __repr__(self):
-        return "({}: {}) -> {}".format(self.key, self.value, self.next)
+        return "({}) -> {}".format(self.value, self.next)
 
     def setNext(self, next):
         self.next = next
@@ -35,8 +34,8 @@ class DoublyConnectedLinkedList:
     def __repr__(self):
         return self.head.__repr__()
 
-    def addHead(self, key, value):
-        n = Node(key, value, None, self.head)
+    def addHead(self, value):
+        n = Node(value, None, self.head)
         if self.head == None:
             self.tail = n
         else:
@@ -45,8 +44,8 @@ class DoublyConnectedLinkedList:
         self.head = n
         return n
 
-    def addTail(self, key, value):
-        n = Node(key, value, self.tail, None)
+    def addTail(self, value):
+        n = Node(value, self.tail, None)
         if self.tail == None:
             self.head = n
         else:
