@@ -1,3 +1,6 @@
+import unittest
+
+
 class Node:
     def __init__(self, value=None):
         self.value = value
@@ -78,3 +81,27 @@ class SkipTrie:
 
     def lookUp(self, word_pattern):
         return self.lookUpHelper(word_pattern, self.storage)
+
+
+class TestDoublyConnectedLinkedList(unittest.TestCase):
+    def test_1(self):
+        st = SkipTrie()
+        self.assertFalse(st.lookUp(''))
+        st.addWord('')
+        self.assertTrue(st.lookUp(''))
+        st.addWord('a')
+        st.addWord('ab')
+        st.addWord('abc')
+        st.addWord('a')
+        self.assertTrue(st.lookUp('a'))
+        self.assertTrue(st.lookUp('a.'))
+        self.assertTrue(st.lookUp('a..'))
+        self.assertTrue(st.lookUp('.bc'))
+        self.assertTrue(st.lookUp('a.c'))
+        self.assertTrue(st.lookUp('.b.'))
+        self.assertFalse(st.lookUp('....'))
+        self.assertTrue(st.lookUp('...'))
+
+
+if __name__ == '__main__':
+    unittest.main()
