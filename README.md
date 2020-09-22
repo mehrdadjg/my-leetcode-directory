@@ -1,9 +1,9 @@
 # List of Questions
 
-| Number |                                                    Question Name                                                    |                    Solution                     | Difficulty |       Libraries Used        |
-| :----: | :-----------------------------------------------------------------------------------------------------------------: | :---------------------------------------------: | :--------: | :-------------------------: |
-|  146   |                                    [LRU Cache](leetcode.com/problems/lru-cache/)                                    |                 `lru-cache.py`                  |   Medium   | `DoublyConnectedLinkedList` |
-|  211   | [Design Add and Search Words Data Structure](<(leetcode.com/problems/design-add-and-search-words-data-structure/)>) | `design-add-and-search-words-data-structure.py` |   Medium   |         `SkipTrie`          |
+| Number |                                                      Question Name                                                      |                    Solution                     | Difficulty |       Libraries Used        |
+| :----: | :---------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------: | :--------: | :-------------------------: |
+|  146   |                                  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                  |                 `lru-cache.py`                  |   Medium   | `DoublyConnectedLinkedList` |
+|  211   | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | `design-add-and-search-words-data-structure.py` |   Medium   |         `SkipTrie`          |
 
 # Library Files
 
