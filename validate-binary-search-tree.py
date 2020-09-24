@@ -1,7 +1,8 @@
 """ As of 09/24/2020 09:33 MST
     Runtime: 72 ms (beats 15.03% of python3 submissions)
     Memory: 16.6 MB (beats 9.65% of python3 submissions)
-    Overall: Turns out yield is not that efficient, but it's very cool.
+    Overall: Turns out yield and recursion aren't the most
+    efficient combo, they're fun to use though.
 """
 
 
