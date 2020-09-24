@@ -5,6 +5,7 @@
 |   98   |                [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                |        `validate-binary-search-tree.py`         |   Medium   |                             |
 |  146   |                                  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                  |                 `lru-cache.py`                  |   Medium   | `DoublyConnectedLinkedList` |
 |  211   | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | `design-add-and-search-words-data-structure.py` |   Medium   |         `SkipTrie`          |
+|  1246  |                         [Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)                         |             `palindrome-removal.py`             |    Hard    |                             |
 
 # Library Files
 
