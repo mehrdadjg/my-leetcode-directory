@@ -2,8 +2,6 @@
     Runtime: 36 ms (beats 31.42% of python3 submissions)
     Memory: 14.2 MB (beats 5.31%  of python3 submissions)
 """
-
-
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         frequency = {}

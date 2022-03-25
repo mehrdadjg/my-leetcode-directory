@@ -2,8 +2,6 @@
     Runtime: 584 ms (beats 5.11% of python3 submissions)
     Memory: 16.5 MB (beats 6.30%  of python3 submissions)
 """
-
-
 class TicTacToe:
     def __init__(self, n: int):
         self.state = {1:
