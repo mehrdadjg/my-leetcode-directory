@@ -4,8 +4,6 @@
     Note to Future Self: Avoid python loops as much as possible
     if you're in a rush. List comprehension's the way to go.
 """
-
-
 class Solution:
     def printPretty(self, res):
         for i in range(len(res)):
