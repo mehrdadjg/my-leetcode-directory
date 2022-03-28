@@ -11,20 +11,20 @@ def isBigger(log1, log2):
     return v1 > v2 if v1 != v2 else log1.split(' ')[0] > log2.split(' ')[0]
 
 def bubble_up(arr, last_index, i):
-    smallest = i
+    biggest = i
     left = 2 * i + 1
     right = 2 * i + 2
 
-    if left <= last_index and isBigger(arr[left], arr[smallest]):
-        smallest = left
+    if left <= last_index and isBigger(arr[left], arr[biggest]):
+        biggest = left
     
-    if right <= last_index and isBigger(arr[right], arr[smallest]):
-        smallest = right
+    if right <= last_index and isBigger(arr[right], arr[biggest]):
+        biggest = right
     
-    if smallest != i:
-        arr[i], arr[smallest] = arr[smallest], arr[i]
+    if biggest != i:
+        arr[i], arr[biggest] = arr[biggest], arr[i]
 
-        bubble_up(arr, last_index, smallest)
+        bubble_up(arr, last_index, biggest)
 
 def heapify(arr, last_index):
     for i in range((last_index + 1)//2 - 1, -1, -1):
